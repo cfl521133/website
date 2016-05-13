@@ -1,0 +1,10 @@
+proxy:
+  image: cholic/website
+  volumes:
+    - /etc/ky-edu/ssl/nginx:/etc/ky-edu/ssl/nginx
+  ports:
+    - "80:80"
+    - "81:81"
+    - "443:443"
+    - "9001:9001"
+    - "9003:9003"

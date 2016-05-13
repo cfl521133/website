@@ -10,3 +10,4 @@ RUN chmod 755 /entrypoint.sh
 
 EXPOSE 80 443 81 9001 9003
 # ENTRYPOINT ["sh","-c","/entrypoint.sh"]
+# CMD ["nginx", "-g", "daemon off;"]
